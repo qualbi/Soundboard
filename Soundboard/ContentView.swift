@@ -25,8 +25,10 @@ struct ContentView: View {
                 
                 HStack {
                     Spacer()
-                    
-                    Image(systemName: "cloud.bolt.fill")
+                    Button{
+                        
+                    }
+                label: {Image(systemName: "cloud.bolt.fill")
                         .resizable()
                         .frame(width: 64, height: 64)
                         .foregroundColor(.yellow)
@@ -37,10 +39,14 @@ struct ContentView: View {
                             .cornerRadius(15))
                         .border(Color.black, width: 3)
                         .cornerRadius(15)
+                }
                     
                     Spacer()
                     
-                    Image(systemName: "sparkles")
+                    Button{
+                        
+                    }
+                label: {Image(systemName: "sparkles")
                         .resizable()
                         .frame(width: 64, height: 64)
                         .foregroundColor(.yellow)
@@ -52,9 +58,16 @@ struct ContentView: View {
                             .cornerRadius(15))
                         .border(Color.black, width: 3)
                         .cornerRadius(15)
+                }
+                    
                     Spacer()
+                    
                     let skyBlue = Color(red: 0, green: 1, blue: 1.0)
-                    Image(systemName: "snowflake")
+                    
+                    Button{
+                        
+                    }
+                label: {Image(systemName: "snowflake")
                         .resizable()
                         .frame(width: 64, height: 64)
                         .foregroundColor(skyBlue)
@@ -65,6 +78,7 @@ struct ContentView: View {
                             .cornerRadius(15))
                         .border(Color.black, width: 3)
                         .cornerRadius(15)
+                }
                     
                     Spacer()
                 }
@@ -72,7 +86,11 @@ struct ContentView: View {
                 
                 HStack {
                     Spacer()
-                    Image(systemName: "drop.fill")
+                    
+                    Button{
+                        
+                    }
+                label: {Image(systemName: "drop.fill")
                         .resizable()
                         .frame(width: 64, height: 64)
                         .foregroundColor(.blue)
@@ -83,8 +101,14 @@ struct ContentView: View {
                             .cornerRadius(15))
                         .border(Color.black, width: 3)
                         .cornerRadius(15)
+                }
+                    
                     Spacer()
-                    Image(systemName: "wind")
+                    
+                    Button{
+                        
+                    }
+                label: {Image(systemName: "wind")
                         .resizable()
                         .frame(width: 64, height: 64)
                         .foregroundColor(.green)
@@ -95,8 +119,14 @@ struct ContentView: View {
                             .cornerRadius(15))
                         .border(Color.black, width: 3)
                         .cornerRadius(15)
+                }
+                    
                     Spacer()
-                    Image(systemName: "bird.fill")
+                    
+                    Button{
+                        
+                    }
+                label: {Image(systemName: "bird.fill")
                         .resizable()
                         .frame(width: 64, height: 64)
                         .foregroundColor(.brown)
@@ -107,13 +137,19 @@ struct ContentView: View {
                             .cornerRadius(15))
                         .border(Color.black, width: 3)
                         .cornerRadius(15)
+                }
+                    
                     Spacer()
                 }
                 Spacer()
                 
                 HStack {
                     Spacer()
-                    Image(systemName: "cloud.rain.fill")
+                    
+                    Button{
+                        
+                    }
+                label: {Image(systemName: "cloud.rain.fill")
                         .resizable()
                         .frame(width: 64, height: 64)
                         .foregroundColor(Color("Dark Gray"))
@@ -124,8 +160,14 @@ struct ContentView: View {
                             .cornerRadius(15))
                         .border(Color.black, width: 5)
                         .cornerRadius(15)
+                }
+                    
                     Spacer()
-                    Image(systemName: "water.waves")
+                    
+                    Button{
+                        
+                    }
+                label: {Image(systemName: "water.waves")
                         .resizable()
                         .frame(width: 64, height: 64)
                         .foregroundColor(.blue)
@@ -137,8 +179,14 @@ struct ContentView: View {
                             .cornerRadius(15))
                         .border(Color.black, width: 3)
                         .cornerRadius(15)
+                }
+                    
                     Spacer()
-                    Image(systemName: "fish.fill")
+                    
+                    Button{
+                        
+                    }
+                label: {Image(systemName: "fish.fill")
                         .resizable()
                         .frame(width: 64, height: 64)
                         .foregroundColor(.orange)
@@ -149,6 +197,8 @@ struct ContentView: View {
                             .cornerRadius(15))
                         .border(Color.black, width: 3)
                         .cornerRadius(15)
+                }
+                    
                     Spacer()
                 }
                 
