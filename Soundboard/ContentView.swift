@@ -6,9 +6,14 @@
 //
 
 import SwiftUI
+import AVFoundation
+
+var player: AVAudioPlayer!
 
 struct ContentView: View {
+    
     var body: some View {
+        
         ZStack {
             Color("BG")
                 .ignoresSafeArea()
@@ -206,6 +211,21 @@ struct ContentView: View {
                 Spacer()
             }
         }
+    }
+}
+
+func playSound() {
+    let url =  Bundle.main.url(forResource: "sound_effect_1", withExtension: "mp3")
+    
+    guard url != nil else {
+        return
+    }
+    
+    do {
+        player = try  AVAudioPlayer(contentsOf: url)
+        player?.play()
+    } catch {
+        print("error")
     }
 }
 
