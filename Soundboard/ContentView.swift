@@ -31,7 +31,7 @@ struct ContentView: View {
                 HStack {
                     Spacer()
                     Button{
-                        
+                        playSound(sound: "thunder")
                     }
                 label: {Image(systemName: "cloud.bolt.fill")
                         .resizable()
@@ -49,7 +49,7 @@ struct ContentView: View {
                     Spacer()
                     
                     Button{
-                        
+                        playSound(sound: "sparkle")
                     }
                 label: {Image(systemName: "sparkles")
                         .resizable()
@@ -93,7 +93,7 @@ struct ContentView: View {
                     Spacer()
                     
                     Button{
-                        
+                        playSound(sound: "waterdrop")
                     }
                 label: {Image(systemName: "drop.fill")
                         .resizable()
@@ -111,7 +111,7 @@ struct ContentView: View {
                     Spacer()
                     
                     Button{
-                        
+                        playSound(sound: "wind")
                     }
                 label: {Image(systemName: "wind")
                         .resizable()
@@ -152,7 +152,7 @@ struct ContentView: View {
                     Spacer()
                     
                     Button{
-                        
+                        playSound(sound: "hard_rain")
                     }
                 label: {Image(systemName: "cloud.rain.fill")
                         .resizable()
@@ -170,7 +170,7 @@ struct ContentView: View {
                     Spacer()
                     
                     Button{
-                        
+                        playSound(sound: "flowing_water")
                     }
                 label: {Image(systemName: "water.waves")
                         .resizable()
@@ -214,15 +214,15 @@ struct ContentView: View {
     }
 }
 
-func playSound() {
-    let url =  Bundle.main.url(forResource: "sound_effect_1", withExtension: "mp3")
+func playSound(sound: String ) {
+    let url =  Bundle.main.url(forResource: sound, withExtension: "mp3")
     
     guard url != nil else {
         return
     }
     
     do {
-        player = try  AVAudioPlayer(contentsOf: url)
+        player = try  AVAudioPlayer(contentsOf: url!)
         player?.play()
     } catch {
         print("error")

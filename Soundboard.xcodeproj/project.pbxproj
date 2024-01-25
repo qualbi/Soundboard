@@ -11,6 +11,12 @@
 		4D931D9C2B5CC90200A5FCC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D931D9B2B5CC90200A5FCC5 /* ContentView.swift */; };
 		4D931D9E2B5CC90400A5FCC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D931D9D2B5CC90400A5FCC5 /* Assets.xcassets */; };
 		4D931DA12B5CC90400A5FCC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D931DA02B5CC90400A5FCC5 /* Preview Assets.xcassets */; };
+		4DACA9872B621D72002D1A0C /* hard_rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DACA9862B621D72002D1A0C /* hard_rain.mp3 */; };
+		4DACA9892B621E39002D1A0C /* thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DACA9882B621E39002D1A0C /* thunder.mp3 */; };
+		4DACA98B2B621EEE002D1A0C /* sparkle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DACA98A2B621EEE002D1A0C /* sparkle.mp3 */; };
+		4DACA98D2B621FBE002D1A0C /* waterdrop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DACA98C2B621FBE002D1A0C /* waterdrop.mp3 */; };
+		4DACA98F2B622097002D1A0C /* wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DACA98E2B622097002D1A0C /* wind.mp3 */; };
+		4DACA9912B622103002D1A0C /* flowing_water.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DACA9902B622103002D1A0C /* flowing_water.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		4D931D9B2B5CC90200A5FCC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D931D9D2B5CC90400A5FCC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D931DA02B5CC90400A5FCC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DACA9862B621D72002D1A0C /* hard_rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hard_rain.mp3; sourceTree = "<group>"; };
+		4DACA9882B621E39002D1A0C /* thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thunder.mp3; sourceTree = "<group>"; };
+		4DACA98A2B621EEE002D1A0C /* sparkle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sparkle.mp3; sourceTree = "<group>"; };
+		4DACA98C2B621FBE002D1A0C /* waterdrop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waterdrop.mp3; sourceTree = "<group>"; };
+		4DACA98E2B622097002D1A0C /* wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wind.mp3; sourceTree = "<group>"; };
+		4DACA9902B622103002D1A0C /* flowing_water.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flowing_water.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 		4D931D982B5CC90200A5FCC5 /* Soundboard */ = {
 			isa = PBXGroup;
 			children = (
+				4DACA97F2B6216C3002D1A0C /* Sounds */,
 				4D931D992B5CC90200A5FCC5 /* Xcode_DemoApp.swift */,
 				4D931D9B2B5CC90200A5FCC5 /* ContentView.swift */,
 				4D931D9D2B5CC90400A5FCC5 /* Assets.xcassets */,
@@ -65,6 +78,19 @@
 				4D931DA02B5CC90400A5FCC5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DACA97F2B6216C3002D1A0C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4DACA98C2B621FBE002D1A0C /* waterdrop.mp3 */,
+				4DACA9862B621D72002D1A0C /* hard_rain.mp3 */,
+				4DACA9882B621E39002D1A0C /* thunder.mp3 */,
+				4DACA98A2B621EEE002D1A0C /* sparkle.mp3 */,
+				4DACA98E2B622097002D1A0C /* wind.mp3 */,
+				4DACA9902B622103002D1A0C /* flowing_water.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +151,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DACA9872B621D72002D1A0C /* hard_rain.mp3 in Resources */,
 				4D931DA12B5CC90400A5FCC5 /* Preview Assets.xcassets in Resources */,
+				4DACA98B2B621EEE002D1A0C /* sparkle.mp3 in Resources */,
+				4DACA98D2B621FBE002D1A0C /* waterdrop.mp3 in Resources */,
 				4D931D9E2B5CC90400A5FCC5 /* Assets.xcassets in Resources */,
+				4DACA98F2B622097002D1A0C /* wind.mp3 in Resources */,
+				4DACA9892B621E39002D1A0C /* thunder.mp3 in Resources */,
+				4DACA9912B622103002D1A0C /* flowing_water.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
