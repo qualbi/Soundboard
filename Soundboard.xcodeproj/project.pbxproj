@@ -17,6 +17,9 @@
 		4DACA98D2B621FBE002D1A0C /* waterdrop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DACA98C2B621FBE002D1A0C /* waterdrop.mp3 */; };
 		4DACA98F2B622097002D1A0C /* wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DACA98E2B622097002D1A0C /* wind.mp3 */; };
 		4DACA9912B622103002D1A0C /* flowing_water.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DACA9902B622103002D1A0C /* flowing_water.mp3 */; };
+		4DACA9932B622309002D1A0C /* snow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DACA9922B622309002D1A0C /* snow.mp3 */; };
+		4DACA9952B622404002D1A0C /* birds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DACA9942B622404002D1A0C /* birds.mp3 */; };
+		4DACA9972B6226C2002D1A0C /* fish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DACA9962B6226C2002D1A0C /* fish.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		4DACA98C2B621FBE002D1A0C /* waterdrop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waterdrop.mp3; sourceTree = "<group>"; };
 		4DACA98E2B622097002D1A0C /* wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wind.mp3; sourceTree = "<group>"; };
 		4DACA9902B622103002D1A0C /* flowing_water.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flowing_water.mp3; sourceTree = "<group>"; };
+		4DACA9922B622309002D1A0C /* snow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snow.mp3; sourceTree = "<group>"; };
+		4DACA9942B622404002D1A0C /* birds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = birds.mp3; sourceTree = "<group>"; };
+		4DACA9962B6226C2002D1A0C /* fish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fish.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,9 @@
 				4DACA98A2B621EEE002D1A0C /* sparkle.mp3 */,
 				4DACA98E2B622097002D1A0C /* wind.mp3 */,
 				4DACA9902B622103002D1A0C /* flowing_water.mp3 */,
+				4DACA9922B622309002D1A0C /* snow.mp3 */,
+				4DACA9942B622404002D1A0C /* birds.mp3 */,
+				4DACA9962B6226C2002D1A0C /* fish.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -153,6 +162,9 @@
 			files = (
 				4DACA9872B621D72002D1A0C /* hard_rain.mp3 in Resources */,
 				4D931DA12B5CC90400A5FCC5 /* Preview Assets.xcassets in Resources */,
+				4DACA9932B622309002D1A0C /* snow.mp3 in Resources */,
+				4DACA9952B622404002D1A0C /* birds.mp3 in Resources */,
+				4DACA9972B6226C2002D1A0C /* fish.mp3 in Resources */,
 				4DACA98B2B621EEE002D1A0C /* sparkle.mp3 in Resources */,
 				4DACA98D2B621FBE002D1A0C /* waterdrop.mp3 in Resources */,
 				4D931D9E2B5CC90400A5FCC5 /* Assets.xcassets in Resources */,

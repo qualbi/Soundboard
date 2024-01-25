@@ -70,7 +70,7 @@ struct ContentView: View {
                     let skyBlue = Color(red: 0, green: 1, blue: 1.0)
                     
                     Button{
-                        
+                        playSound(sound: "snow")
                     }
                 label: {Image(systemName: "snowflake")
                         .resizable()
@@ -129,7 +129,7 @@ struct ContentView: View {
                     Spacer()
                     
                     Button{
-                        
+                        playSound(sound: "birds")
                     }
                 label: {Image(systemName: "bird.fill")
                         .resizable()
@@ -189,7 +189,7 @@ struct ContentView: View {
                     Spacer()
                     
                     Button{
-                        
+                        playSound(sound: "fish")
                     }
                 label: {Image(systemName: "fish.fill")
                         .resizable()
